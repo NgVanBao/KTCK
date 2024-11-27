@@ -1,0 +1,99 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F9F9F9">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_logo"
+        android:contentDescription="Logo"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/circle_background"
+        android:elevation="8dp" />
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Welcome, First Name Last Name."
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Question Text -->
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Do you want to buy or sell?"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buyButton"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:text="I want to buy"
+            android:background="@drawable/button_primary"
+            android:textColor="#FFFFFF"
+            android:elevation="4dp" />
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/sellButton"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:text="I want to sell"
+            android:background="@drawable/button_secondary"
+            android:textColor="#9C27B0"
+            android:elevation="4dp" />
+    </LinearLayout>
+
+    <!-- Remember Checkbox -->
+    <CheckBox
+        android:id="@+id/rememberChoiceCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Remember my choice"
+        android:textColor="#555555"
+        android:layout_gravity="center_horizontal"
+        android:buttonTint="#9C27B0"
+        android:fontFamily="sans-serif" />
+
+    <!-- OK Button -->
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:text="Ok"
+        android:background="@drawable/button_primary"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:elevation="6dp" />
+</LinearLayout>

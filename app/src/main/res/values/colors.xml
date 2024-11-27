@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Màu đen mềm (cho chữ và biểu tượng) -->
+    <color name="black">#212121</color>
+
+    <!-- Màu trắng -->
+    <color name="white">#FFFFFF</color>
+
+    <!-- Màu xám nhạt (nền hoặc mục chưa chọn) -->
+    <color name="gray_light">#F5F5F5</color>
+
+    <!-- Màu xám đậm (cho chữ hoặc mục chưa chọn) -->
+    <color name="gray_dark">#757575</color>
+
+    <!-- Màu chính (cho mục được chọn, làm nổi bật) -->
+    <color name="colorPrimary">#CD3FE6</color> <!-- Xanh đậm -->
+
+    <!-- Màu vàng mềm (làm điểm nhấn nếu cần) -->
+    <color name="yellow">#FF5722</color>
+</resources>

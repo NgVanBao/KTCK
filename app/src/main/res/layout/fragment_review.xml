@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4">
+
+    <!-- Nội dung TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Văn Bảo\n22115053122303\nTabfavourite"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#9C27B0"
+        android:textSize="30sp" />
+</FrameLayout>
